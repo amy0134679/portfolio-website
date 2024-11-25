@@ -14,14 +14,19 @@ function App() {
 
       {/* Main Content */}
       <main className="main-content">
-        <section id="home" className="section home">
-          <h1>Welcome to My Kittenville!</h1>
-          <p>Make sure you leave your shoes at the door or i'LL HISS.</p>
+        <div class="wrapper">
+          <section id="home" className="section home">
+            <h1>Welcome to My Kittenville!</h1>
+            <p>Make sure you leave your shoes at the door or i'LL HISS.</p>
         </section>
-        <section id="about" className="section about">
-          <h2>About Me</h2>
-          <p>Here’s some information about KITTENS</p>
-        </section>
+        </div>
+
+        <div class="wrapper">
+          <section id="about" className="section about">
+            <h2>About Me</h2>
+            <p>Here’s some information about KITTENS</p>
+          </section>
+        </div>
         <section id="contact" className="section contact">
           <h2>Contact</h2>
           <p>Feel free to reach out to me via meowing loudly</p>
