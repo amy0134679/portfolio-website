@@ -6,9 +6,10 @@ function App() {
       {/* Navbar */}
       <nav className="navbar">
         <ul className="navbar-links">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <button class="navButton" type="homeButton">Home</button>
+          <button class="navButton" type="aboutButton">About</button>
+          <button class="navButton" type="contactButton">Contact</button>
+
         </ul>
       </nav>
 
@@ -18,19 +19,24 @@ function App() {
           <section id="home" className="section home">
             <h1>Welcome to My Kittenville!</h1>
             <p>Make sure you leave your shoes at the door or i'LL HISS.</p>
+            <h2>About Me</h2>
+            <p>Here’s some information about KITTENS</p>
         </section>
         </div>
 
         <div class="wrapper">
-          <section id="about" className="section about">
-            <h2>About Me</h2>
+          <section id="projects" className="section projects">
+            <h2>Learn about the projects I've worked on!</h2>
             <p>Here’s some information about KITTENS</p>
           </section>
         </div>
-        <section id="contact" className="section contact">
-          <h2>Contact</h2>
-          <p>Feel free to reach out to me via meowing loudly</p>
-        </section>
+
+        <div class="wrapper">
+          <section id="contact" className="section contact">
+            <h2>Contact</h2>
+            <p>Feel free to reach out to me via meowing loudly</p>
+          </section>
+        </div>
       </main>
 
       {/* Footer */}
